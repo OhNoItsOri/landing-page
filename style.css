@@ -1,0 +1,46 @@
+/* MAIN PAGE */
+* {
+    background-color: rgb(58,31,93);
+    color: white;
+
+}
+
+/* NAV BAR */
+
+.navbar {
+    display: flex;
+    color: rgb(0, 0, 0);
+    background-color:  rgb(58,31,93);
+    align-items: center;
+    padding: 10px 5px 10px 5px;
+}
+
+.logo img {
+    margin-right: auto;
+}
+
+.navbar-links {
+    display: stretch;
+    margin-left: auto;
+    font-family: Verdana;
+    font-size: 17px;
+}
+
+/* Hero Section */
+
+.hero-section {
+    display: flex;
+    color: rgb(0, 0, 0);
+    background-color:  rgb(58,31,93);
+}
+
+.big-logo img {
+    margin-right: auto;
+}
+
+.hero-text {
+    display: stretch;
+    margin-left: auto;
+    font-family: Verdana;
+    font-size: 17px;
+}
