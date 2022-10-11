@@ -7,6 +7,7 @@
 /* NAV BAR */
 
 .navbar {
+    border: 1px solid #fff;
     display: flex;
     color: rgb(255, 255, 255);
     background-color:  rgb(58,31,93);
@@ -28,10 +29,11 @@
 /* Hero Section */
 
 .hero-section {
+    margin: 50px;
     border: 1px solid #fff;
-    display: flex;
+    display: inline-flex;
     flex-direction: row-reverse;
-    align-content: center;
+    align-content: baseline;
     background-color:  rgb(58,31,93);
 }
 
@@ -43,4 +45,11 @@
     padding: 10px 5px 10px 5px;
     font-family: Verdana;
     font-size: 17px;
+}
+
+/* Carosel portion */
+
+.body-main {
+    border: 1px solid #fff;
+    display: stretch;
 }
