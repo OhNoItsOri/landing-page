@@ -1,15 +1,14 @@
 /* MAIN PAGE */
 * {
     background-color: rgb(58,31,93);
-    color: white;
-
+    color: #fff;
 }
 
 /* NAV BAR */
 
 .navbar {
     display: flex;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     background-color:  rgb(58,31,93);
     align-items: center;
     padding: 10px 5px 10px 5px;
@@ -29,18 +28,19 @@
 /* Hero Section */
 
 .hero-section {
+    border: 1px solid #fff;
     display: flex;
-    color: rgb(0, 0, 0);
+    flex-direction: row-reverse;
+    align-content: center;
     background-color:  rgb(58,31,93);
 }
 
 .big-logo img {
-    margin-right: auto;
+    padding: 10px 5px 10px 5px;
 }
 
 .hero-text {
-    display: stretch;
-    margin-left: auto;
+    padding: 10px 5px 10px 5px;
     font-family: Verdana;
     font-size: 17px;
 }
